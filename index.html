@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ellie's Sign-up Form</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="left">
+		<h1><img src="./images/odin-lined.png" alt="The ODIN Logo" />ODIN</h1>
+		<div id="link">Photo by <a
+				href="https://unsplash.com/@jlwilkens?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Justin
+				Wilkens</a> on <a
+				href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+		</div>
+	</div>
+	<div id="right">
+		<p>This is not a real online service! You know you need something like this in your life to help you realize your
+			deepest dreams. Sign up <em>now</em> to get started</p>
+		<p>You <em>know</em> you want to.</p>
+		<div id="form">
+			<form action="results.html" method="get">
+				<fieldset>
+					<h3>Let's do this!</h3>
+					<div id="input">
+						<div class="name">
+							<div id="first_name">
+								<label>
+									FIRST NAME
+									<input required type="text">
+								</label>
+							</div>
+							<div id="last_name">
+								<label>
+									LAST NAME
+									<input required type="text">
+								</label>
+							</div>
+						</div>
+						<div class="contacts">
+							<div id="email">
+								<label>
+									EMAIL
+									<input required type="email">
+								</label>
+							</div>
+							<div id="phone_number">
+								<label>
+									PHONE NUMBER
+									<input type="number">
+								</label>
+							</div>
+						</div>
+						<div class="password_field">
+							<div id="password">
+								<label>
+									PASSWORD
+									<input required type="password">
+								</label>
+							</div>
+							<div id="confirm_password">
+								<label>
+									CONFIRM PASSWORD
+									<input required type="password">
+								</label>
+							</div>
+						</div>
+					</div>
+					<input type="submit" value="Create Account">
+					<!-- <input type="reset" value="Reset"> -->
+				</fieldset>
+			</form>
+		</div>
+		<p>Already have an account? <a href="">Log in</a></p>
+	</div>
+</body>
+</html>
